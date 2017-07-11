@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="4f2f2587db333200e0e471efbf9619f8" sys_domain="global" table="x_3200_emgr_employee" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 07:45:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>072f2587db333200e0e471efbf9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_3200_emgr_employee" name="x_3200_emgr_employee" sys_domain="global" view="Default view">4f2f2587db333200e0e471efbf9619f8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_employee" sys_domain="global" view="Default view">edee2d47db333200e0e471efbf961920</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 07:45:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 07:45:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032f2587db333200e0e471efbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_3200_emgr_employee" name="x_3200_emgr_employee" sys_domain="global" view="Default view">4f2f2587db333200e0e471efbf9619f8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_3200_emgr_employee" sys_domain="global" view="Default view">832f2587db333200e0e471efbf9619f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 07:45:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_3200_emgr_employee</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 07:45:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f2f2587db333200e0e471efbf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_3200_emgr_employee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4f2f2587db333200e0e471efbf9619f8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 07:45:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

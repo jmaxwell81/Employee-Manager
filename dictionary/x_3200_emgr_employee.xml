@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Employee" max_length="40" name="x_3200_emgr_employee" type="collection">
+        <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
+    </element>
+</database>
