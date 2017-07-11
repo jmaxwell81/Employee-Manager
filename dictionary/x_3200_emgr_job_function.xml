@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Job Function" max_length="40" name="x_3200_emgr_job_function" type="collection">
+        <element label="Core Location" max_length="32" name="core_location" reference="cmn_location" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element dynamic_creation="true" label="Salary Range" max_length="32" name="salary_range" reference="x_3200_emgr_salary_range" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="core_location"/>
+        </index>
+        <index name="index3">
+            <element name="salary_range"/>
+        </index>
+    </element>
+</database>
