@@ -10,6 +10,9 @@
         <element label="Degrees" max_length="8000" name="degrees" type="html"/>
         <element label="Desk Terminal" max_length="40" name="desk_terminal" type="string"/>
         <element label="Email" max_length="100" name="email" type="email"/>
+        <element label="Emergency Contact" max_length="80" name="emergency_contact" type="string"/>
+        <element label="Emergency Contact Phone" max_length="25" name="emergency_contact_phone" type="string"/>
+        <element label="Emergency Contact Relationship" max_length="20" name="emergency_contact_relationship" type="string"/>
         <element label="Firstname" max_length="40" name="firstname" type="string"/>
         <element choice="3" default="M" label="Gender" max_length="2" name="gender" type="string">
             <choice>
