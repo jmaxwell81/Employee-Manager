@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Employee" max_length="40" name="x_3200_emgr_employee" type="collection">
+        <element label="Additional Education" max_length="8000" name="additional_education" type="html"/>
+        <element label="Address" max_length="40" name="address" type="multi_two_lines"/>
+        <element default="0" label="Bonus " max_length="20" name="bonus" type="currency"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Days Employed" max_length="40" name="days_employed" read_only="true" type="integer"/>
+        <element label="Degrees" max_length="8000" name="degrees" type="html"/>
+        <element label="Desk Terminal" max_length="40" name="desk_terminal" type="string"/>
+        <element label="Email" max_length="100" name="email" type="email"/>
         <element label="Firstname" max_length="40" name="firstname" type="string"/>
+        <element label="Hire Date" max_length="40" name="hire_date" type="glide_date"/>
         <element label="Lastname" max_length="80" name="lastname" type="string"/>
+        <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Title" max_length="80" name="title" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element default="0" label="Salary" max_length="20" name="salary" type="currency"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Stock Options" max_length="40" name="stock_options" type="string"/>
+        <element default="0" label="Stock Value (Day 1)" max_length="20" name="stock_value_day_1" type="currency"/>
+        <element label="Termination Date" max_length="40" name="termination_date" type="glide_date"/>
+        <element choice="2" label="Title" max_length="80" name="title" type="string">
+            <choice/>
+        </element>
+        <element default="0" label="Total Stock Value" max_length="20" name="total_stock_value" type="currency"/>
+        <element default="0" label="Yearly Comp" max_length="20" name="yearly_comp" type="currency"/>
+        <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
     </element>
 </database>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Compensation" section_id="074b36d7db7b3200e0e471efbf961947" sys_domain="global" table="x_3200_emgr_employee" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>salary</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>7b4b36d7db7b3200e0e471efbf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bonus</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>fb4b36d7db7b3200e0e471efbf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>7f4b36d7db7b3200e0e471efbf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_options</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>ff4b36d7db7b3200e0e471efbf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_value_day_1</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>734b36d7db7b3200e0e471efbf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_stock_value</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>f34b36d7db7b3200e0e471efbf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yearly_comp</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:46</sys_created_on>
+            <sys_id>774b36d7db7b3200e0e471efbf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="x_3200_emgr_employee" sys_domain="global" view="Default view">074b36d7db7b3200e0e471efbf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Compensation</caption>
+            <header>false</header>
+            <name>x_3200_emgr_employee</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-12 07:56:43</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>074b36d7db7b3200e0e471efbf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Compensation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
+            <sys_update_name>sys_ui_section_074b36d7db7b3200e0e471efbf961947</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-12 07:56:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

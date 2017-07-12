@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Letter Templates" max_length="40" name="x_3200_emgr_letter_templates" type="collection">
+        <element dependent="table" dependent_on_field="table" label="Body" mandatory="true" max_length="40" name="body" type="html_script" use_dependent_field="true"/>
+        <element display="true" label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+        <element default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Table" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>
