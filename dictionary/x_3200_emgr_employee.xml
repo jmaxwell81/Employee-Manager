@@ -11,6 +11,12 @@
         <element label="Desk Terminal" max_length="40" name="desk_terminal" type="string"/>
         <element label="Email" max_length="100" name="email" type="email"/>
         <element label="Firstname" max_length="40" name="firstname" type="string"/>
+        <element choice="3" default="M" label="Gender" max_length="2" name="gender" type="string">
+            <choice>
+                <element label="Female" sequence="100" value="F"/>
+                <element label="Male" sequence="100" value="M"/>
+            </choice>
+        </element>
         <element label="Hire Date" max_length="40" name="hire_date" type="glide_date"/>
         <element label="Lastname" max_length="80" name="lastname" type="string"/>
         <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
