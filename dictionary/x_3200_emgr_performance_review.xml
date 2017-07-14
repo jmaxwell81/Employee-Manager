@@ -9,9 +9,12 @@
         <element label="Reviewer" mandatory="true" max_length="80" name="reviewer" type="string"/>
         <element label="Review Notes" max_length="8000" name="review_notes" type="html"/>
         <element label="Review Overall Score" max_length="2" name="review_overall_score" type="string"/>
-        <element label="Review Type" mandatory="true" max_length="20" name="review_type" reference="x_3200_emgr_review_types" type="reference"/>
+        <element label="Review Type" max_length="32" name="review_type" reference="x_3200_emgr_review_types" type="reference"/>
         <index name="index">
             <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="review_type"/>
         </index>
     </element>
 </database>

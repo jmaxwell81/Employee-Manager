@@ -39,6 +39,7 @@
         <element label="Hire Date" max_length="40" name="hire_date" type="glide_date"/>
         <element label="Lastname" mandatory="true" max_length="80" name="lastname" type="string"/>
         <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
+        <element calculation="if (current.firstname.nil() &amp;&amp; current.lastname.nil() &amp;&amp; !current.name.nil()) {&#13;&#10;&#9;var names = current.name.toString().split(&quot; &quot;);&#13;&#10;&#9;if (names.length &gt; 1) {&#13;&#10;&#9;&#9;current.firstname = names[0];&#13;&#10;&#9;&#9;names.shift();&#13;&#10;&#9;&#9;current.lastname = names.join(&quot; &quot;);&#13;&#10;&#9;} else&#13;&#10;&#9;current.lastname = names[0];&#13;&#10;}&#13;&#10;&#13;&#10;if(current.firstname.nil()) {&#13;&#10;&#9;current.lastname;&#13;&#10;} else {&#13;&#10;&#9;current.firstname + ' ' + current.lastname;&#13;&#10;}&#13;&#10;&#13;&#10;" display="true" label="Name" max_length="120" name="name" type="string" virtual="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Partner Date of Birth" max_length="40" name="partner_date_of_birth" type="glide_date"/>
         <element label="Partner Firstname" max_length="40" name="partner_firstname" type="string"/>
