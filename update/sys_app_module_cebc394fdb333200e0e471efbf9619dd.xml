@@ -15,7 +15,7 @@
         <mobile_title>Benefit Plans</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_3200_emgr_benefit_plan</name>
-        <order>7100</order>
+        <order>6000</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cebc394fdb333200e0e471efbf9619dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Benefit Plans</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
         <sys_update_name>sys_app_module_cebc394fdb333200e0e471efbf9619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-14 09:12:07</sys_updated_on>
+        <sys_updated_on>2017-07-14 10:55:45</sys_updated_on>
         <timeline_page/>
         <title>Benefit Plans</title>
         <uncancelable>false</uncancelable>

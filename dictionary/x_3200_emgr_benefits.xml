@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Benefits" max_length="40" name="x_3200_emgr_benefits" type="collection">
+        <element dependent="benefit_type" dependent_on_field="benefit_type" label="Benefit Plan" mandatory="true" max_length="32" name="benefit_plan" reference="x_3200_emgr_benefit_plan" type="reference" use_dependent_field="true"/>
+        <element label="Benefit Type" mandatory="true" max_length="32" name="benefit_type" reference="x_3200_emgr_benefit_type" type="reference"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_3200_emgr_employee" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Remarks" max_length="8000" name="remarks" type="html"/>
+        <element label="Request Date" max_length="40" name="request_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="benefit_plan"/>
+        </index>
+        <index name="index2">
+            <element name="benefit_type"/>
+        </index>
+        <index name="index3">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
