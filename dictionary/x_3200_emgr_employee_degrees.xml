@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Degrees" max_length="40" name="x_3200_emgr_employee_degrees" type="collection">
+        <element label="Academic Institution" max_length="120" name="academic_institution" type="string"/>
+        <element label="Degree" mandatory="true" max_length="32" name="degree" reference="x_3200_emgr_degree_type" type="reference"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_3200_emgr_employee" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="degree"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
