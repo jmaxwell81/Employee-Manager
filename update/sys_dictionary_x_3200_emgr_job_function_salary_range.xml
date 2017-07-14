@@ -32,7 +32,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_3200_emgr_job_function</name>
         <next_element/>
@@ -54,7 +54,7 @@
         <sys_created_on>2017-07-11 08:31:11</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>3d867d4bdb333200e0e471efbf96192f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Salary Range</sys_name>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
         <sys_update_name>sys_dictionary_x_3200_emgr_job_function_salary_range</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-11 08:36:28</sys_updated_on>
+        <sys_updated_on>2017-07-13 18:19:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

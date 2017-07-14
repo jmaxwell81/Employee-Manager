@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="abf8f5cbdb333200e0e471efbf9619c8" sys_domain="global" table="x_3200_emgr_salary_range" version="3" view="">
+    <sys_ui_section caption="" section_id="5d4292b7db3b3200e0e471efbf961996" sys_domain="global" table="x_3200_emgr_benefit_type" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-13 18:22:24</sys_created_on>
-            <sys_id>4a145af7db3b3200e0e471efbf96192f</sys_id>
+            <sys_created_on>2017-07-13 18:21:18</sys_created_on>
+            <sys_id>4ed356f7db3b3200e0e471efbf961951</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_salary_range" sys_domain="global" view="Default view">abf8f5cbdb333200e0e471efbf9619c8</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_benefit_type" sys_domain="global" view="Default view">5d4292b7db3b3200e0e471efbf961996</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-13 18:22:24</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:21:18</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-13 18:22:24</sys_created_on>
-            <sys_id>ca145af7db3b3200e0e471efbf96192f</sys_id>
+            <sys_created_on>2017-07-13 18:21:18</sys_created_on>
+            <sys_id>ced356f7db3b3200e0e471efbf961951</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_salary_range" sys_domain="global" view="Default view">abf8f5cbdb333200e0e471efbf9619c8</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_benefit_type" sys_domain="global" view="Default view">5d4292b7db3b3200e0e471efbf961996</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-13 18:22:24</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:21:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-13 18:22:24</sys_created_on>
-            <sys_id>4e145af7db3b3200e0e471efbf96192f</sys_id>
+            <sys_created_on>2017-07-13 18:21:18</sys_created_on>
+            <sys_id>42d356f7db3b3200e0e471efbf961952</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_salary_range" sys_domain="global" view="Default view">abf8f5cbdb333200e0e471efbf9619c8</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_benefit_type" sys_domain="global" view="Default view">5d4292b7db3b3200e0e471efbf961996</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-13 18:22:24</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:21:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>active</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-13 18:22:24</sys_created_on>
-            <sys_id>ce145af7db3b3200e0e471efbf96192f</sys_id>
+            <sys_created_on>2017-07-13 18:21:18</sys_created_on>
+            <sys_id>c2d356f7db3b3200e0e471efbf961952</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_salary_range" sys_domain="global" view="Default view">abf8f5cbdb333200e0e471efbf9619c8</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_benefit_type" sys_domain="global" view="Default view">5d4292b7db3b3200e0e471efbf961996</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-13 18:22:24</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:21:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,38 +61,38 @@
             <element>.end_split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-13 18:22:24</sys_created_on>
-            <sys_id>42145af7db3b3200e0e471efbf961930</sys_id>
+            <sys_created_on>2017-07-13 18:21:18</sys_created_on>
+            <sys_id>46d356f7db3b3200e0e471efbf961952</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_salary_range" sys_domain="global" view="Default view">abf8f5cbdb333200e0e471efbf9619c8</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_3200_emgr_benefit_type" sys_domain="global" view="Default view">5d4292b7db3b3200e0e471efbf961996</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-13 18:22:24</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:21:18</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>x_3200_emgr_salary_range</name>
+            <name>x_3200_emgr_benefit_type</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-11 08:28:33</sys_created_on>
+            <sys_created_on>2017-07-13 18:14:26</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>abf8f5cbdb333200e0e471efbf9619c8</sys_id>
+            <sys_id>5d4292b7db3b3200e0e471efbf961996</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_3200_emgr_salary_range</sys_name>
+            <sys_name>x_3200_emgr_benefit_type</sys_name>
             <sys_overrides/>
             <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
-            <sys_update_name>sys_ui_section_abf8f5cbdb333200e0e471efbf9619c8</sys_update_name>
+            <sys_update_name>sys_ui_section_5d4292b7db3b3200e0e471efbf961996</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-11 08:28:33</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:14:26</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -4,92 +4,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>1f96b617db7b3200e0e471efbf9619a2</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>139316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>annual_ote</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>9f96b617db7b3200e0e471efbf9619a2</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>939316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>base_salary</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>1396b617db7b3200e0e471efbf9619a3</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>179316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>9396b617db7b3200e0e471efbf9619a3</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>979316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>remarks</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>1796b617db7b3200e0e471efbf9619a3</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>1b9316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>salary_end_date</element>
-            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d796b617db7b3200e0e471efbf9619a2</list_id>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
-            <sys_id>9796b617db7b3200e0e471efbf9619a3</sys_id>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>9b9316f7db3b3200e0e471efbf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>1f9316f7db3b3200e0e471efbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_3200_emgr_salary_history" element="NULL" name="x_3200_emgr_salary_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db9316f7db3b3200e0e471efbf96193c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
+            <sys_id>9f9316f7db3b3200e0e471efbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,11 +133,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-12 07:36:15</sys_created_on>
+            <sys_created_on>2017-07-13 18:20:18</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d796b617db7b3200e0e471efbf9619a2</sys_id>
+            <sys_id>db9316f7db3b3200e0e471efbf96193c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_3200_emgr_salary_history</sys_name>
             <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
@@ -116,7 +146,7 @@
             <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
             <sys_update_name>sys_ui_list_x_3200_emgr_salary_history_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-12 07:36:15</sys_updated_on>
+            <sys_updated_on>2017-07-13 18:20:18</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

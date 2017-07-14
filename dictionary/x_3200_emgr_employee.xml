@@ -12,7 +12,14 @@
         <element label="Email" max_length="100" name="email" type="email"/>
         <element label="Emergency Contact" max_length="80" name="emergency_contact" type="string"/>
         <element label="Emergency Contact Phone" max_length="25" name="emergency_contact_phone" type="string"/>
-        <element label="Emergency Contact Relationship" max_length="20" name="emergency_contact_relationship" type="string"/>
+        <element choice="1" label="Emergency Contact Relationship" max_length="20" name="emergency_contact_relationship" type="string">
+            <choice>
+                <element label="Significant Other" sequence="0" value="SO"/>
+                <element label="Parent" sequence="1" value="PA"/>
+                <element label="Child" sequence="2" value="CH"/>
+                <element label="Other" sequence="3" value="OH"/>
+            </choice>
+        </element>
         <element label="Firstname" max_length="40" name="firstname" type="string"/>
         <element choice="3" default="M" label="Gender" max_length="2" name="gender" type="string">
             <choice>
@@ -35,6 +42,7 @@
             <choice/>
         </element>
         <element default="0" label="Total Stock Value" max_length="20" name="total_stock_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Social Security Number" max_length="40" name="u_social_security_number" type="string"/>
         <element default="0" label="Yearly Comp" max_length="20" name="yearly_comp" type="currency"/>
         <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
     </element>

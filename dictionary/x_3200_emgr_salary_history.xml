@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Salary History" max_length="40" name="x_3200_emgr_salary_history" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Annual OTE" max_length="20" name="annual_ote" type="currency"/>
         <element label="Base Salary" max_length="20" name="base_salary" type="currency"/>
         <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_3200_emgr_employee" type="reference"/>
