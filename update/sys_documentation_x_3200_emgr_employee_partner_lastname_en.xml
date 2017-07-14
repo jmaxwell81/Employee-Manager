@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_social_security_number" label="Social Security Number" language="en" table="x_3200_emgr_employee">
+    <sys_documentation element="partner_lastname" label="Partner Lastname" language="en" table="x_3200_emgr_employee">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_social_security_number</element>
+            <element>partner_lastname</element>
             <help/>
             <hint/>
-            <label>Social Security Number</label>
+            <label>Partner Lastname</label>
             <language>en</language>
             <name>x_3200_emgr_employee</name>
-            <plural>Social Security Numbers</plural>
+            <plural>Partner Lastnames</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-14 05:05:39</sys_created_on>
+            <sys_created_on>2017-07-14 07:54:47</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
-            <sys_id>a057e044db0c0300e0e471efbf961929</sys_id>
+            <sys_id>8a0e45c4db4c0300e0e471efbf961989</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Social Security Number</sys_name>
+            <sys_name>Partner Lastname</sys_name>
             <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
-            <sys_update_name>sys_documentation_x_3200_emgr_employee_u_social_security_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_3200_emgr_employee_partner_lastname_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-14 05:05:39</sys_updated_on>
+            <sys_updated_on>2017-07-14 07:54:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

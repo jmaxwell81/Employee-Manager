@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_social_security_number" table="x_3200_emgr_employee">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="former_employer_state" table="x_3200_emgr_former_employment">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Social Security Number</column_label>
+        <column_label>State</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +28,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_social_security_number</element>
+        <element>former_employer_state</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_3200_emgr_employee</name>
+        <name>x_3200_emgr_former_employment</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-07-14 05:05:39</sys_created_on>
+        <sys_created_on>2017-07-14 08:11:31</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>e057e044db0c0300e0e471efbf961928</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Social Security Number</sys_name>
+        <sys_id>90c19d08db4c0300e0e471efbf961996</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>State</sys_name>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
-        <sys_update_name>sys_dictionary_x_3200_emgr_employee_u_social_security_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_3200_emgr_former_employment_former_employer_state</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-14 05:05:39</sys_updated_on>
+        <sys_updated_on>2017-07-14 08:16:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

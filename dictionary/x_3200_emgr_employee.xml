@@ -5,13 +5,22 @@
         <element label="Address" max_length="40" name="address" type="multi_two_lines"/>
         <element default="0" label="Bonus " max_length="20" name="bonus" type="currency"/>
         <element label="City" max_length="40" name="city" type="string"/>
+        <element choice="1" label="Civil Status" mandatory="true" max_length="10" name="civil_status" type="string">
+            <choice>
+                <element label="Married" sequence="0" value="MA"/>
+                <element label="Single" sequence="1" value="SI"/>
+                <element label="Divorced" sequence="2" value="DI"/>
+                <element label="Widowed" sequence="3" value="WI"/>
+            </choice>
+        </element>
         <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Days Employed" max_length="40" name="days_employed" read_only="true" type="integer"/>
         <element label="Degrees" max_length="8000" name="degrees" type="html"/>
         <element label="Desk Terminal" max_length="40" name="desk_terminal" type="string"/>
         <element label="Email" max_length="100" name="email" type="email"/>
         <element label="Emergency Contact" max_length="80" name="emergency_contact" type="string"/>
-        <element label="Emergency Contact Phone" max_length="25" name="emergency_contact_phone" type="string"/>
+        <element label="Emergency Contact Phone" max_length="25" name="emergency_contact_phone" type="phone_number_e164"/>
         <element choice="1" label="Emergency Contact Relationship" max_length="20" name="emergency_contact_relationship" type="string">
             <choice>
                 <element label="Significant Other" sequence="0" value="SO"/>
@@ -20,19 +29,23 @@
                 <element label="Other" sequence="3" value="OH"/>
             </choice>
         </element>
-        <element label="Firstname" max_length="40" name="firstname" type="string"/>
-        <element choice="3" default="M" label="Gender" max_length="2" name="gender" type="string">
+        <element label="Firstname" mandatory="true" max_length="40" name="firstname" type="string"/>
+        <element choice="3" default="M" label="Gender" mandatory="true" max_length="2" name="gender" type="string">
             <choice>
                 <element label="Female" sequence="100" value="F"/>
                 <element label="Male" sequence="100" value="M"/>
             </choice>
         </element>
         <element label="Hire Date" max_length="40" name="hire_date" type="glide_date"/>
-        <element label="Lastname" max_length="80" name="lastname" type="string"/>
+        <element label="Lastname" mandatory="true" max_length="80" name="lastname" type="string"/>
         <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Partner Date of Birth" max_length="40" name="partner_date_of_birth" type="glide_date"/>
+        <element label="Partner Firstname" max_length="40" name="partner_firstname" type="string"/>
+        <element label="Partner Lastname" max_length="40" name="partner_lastname" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
         <element default="0" label="Salary" max_length="20" name="salary" type="currency"/>
+        <element label="Social Security Number" max_length="40" name="social_security_number" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Stock Options" max_length="40" name="stock_options" type="string"/>
@@ -42,7 +55,8 @@
             <choice/>
         </element>
         <element default="0" label="Total Stock Value" max_length="20" name="total_stock_value" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Social Security Number" max_length="40" name="u_social_security_number" type="string"/>
+        <element label="Work Email" max_length="100" name="work_email" type="email"/>
+        <element label="Work Phone" max_length="40" name="work_phone" type="phone_number_e164"/>
         <element default="0" label="Yearly Comp" max_length="20" name="yearly_comp" type="currency"/>
         <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
     </element>

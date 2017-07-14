@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Partner" section_id="7a96700cdb0c0300e0e471efbf9619bb" sys_domain="global" table="x_3200_emgr_employee" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_firstname</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-14 07:56:57</sys_created_on>
+            <sys_id>f58e8dc4db4c0300e0e471efbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Partner" display_value="Partner" name="x_3200_emgr_employee" sys_domain="global" view="Default view">7a96700cdb0c0300e0e471efbf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-14 07:56:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_lastname</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-14 07:56:57</sys_created_on>
+            <sys_id>798e8dc4db4c0300e0e471efbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Partner" display_value="Partner" name="x_3200_emgr_employee" sys_domain="global" view="Default view">7a96700cdb0c0300e0e471efbf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-14 07:56:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-14 07:56:57</sys_created_on>
+            <sys_id>f98e8dc4db4c0300e0e471efbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Partner" display_value="Partner" name="x_3200_emgr_employee" sys_domain="global" view="Default view">7a96700cdb0c0300e0e471efbf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-14 07:56:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_date_of_birth</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-14 07:56:57</sys_created_on>
+            <sys_id>7d8e8dc4db4c0300e0e471efbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Partner" display_value="Partner" name="x_3200_emgr_employee" sys_domain="global" view="Default view">7a96700cdb0c0300e0e471efbf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-14 07:56:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Partner</caption>
+            <header>false</header>
+            <name>x_3200_emgr_employee</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-14 06:12:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a96700cdb0c0300e0e471efbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Partner</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
+            <sys_update_name>sys_ui_section_7a96700cdb0c0300e0e471efbf9619bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-14 06:12:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
