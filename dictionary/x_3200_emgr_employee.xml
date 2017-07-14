@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Employees" max_length="40" name="x_3200_emgr_employee" type="collection">
+    <element audit="true" label="Employees" max_length="40" name="x_3200_emgr_employee" text_index="true" type="collection">
         <element label="Additional Education" max_length="8000" name="additional_education" type="html"/>
         <element label="Address" max_length="40" name="address" type="multi_two_lines"/>
         <element default="0" label="Bonus " max_length="20" name="bonus" type="currency"/>

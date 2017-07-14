@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Former Employment" max_length="40" name="x_3200_emgr_former_employment" type="collection">
+    <element audit="true" label="Former Employment" max_length="40" name="x_3200_emgr_former_employment" type="collection">
+        <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
         <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_3200_emgr_employee" type="reference"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Former Employer" mandatory="true" max_length="120" name="former_employer" type="string"/>
