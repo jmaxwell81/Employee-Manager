@@ -2,29 +2,29 @@
 <record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Enable or disable the synching between the OOTB sys_user record and the Employee Manager's x_3200_emgr_employee record as soon as there is an update on the sys_user record.</description>
+        <description>Which should be synched from sys_user to x_3200_emgr_employee record?</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
-        <name>x_3200_emgr.sync_user_employee</name>
+        <name>x_3200_emgr.sync_user_employee_fields</name>
         <read_roles>x_3200_emgr.manager</read_roles>
-        <suffix>sync_user_employee</suffix>
+        <suffix>sync_user_employee_fields</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-07-14 12:06:42</sys_created_on>
+        <sys_created_on>2017-07-16 10:05:37</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>a5370e08dbcc0300e0e471efbf9619fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_3200_emgr.sync_user_employee</sys_name>
+        <sys_id>5ffefba4db408300e0e471efbf9619f8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_3200_emgr.sync_user_employee_fields</sys_name>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
-        <sys_update_name>sys_properties_a5370e08dbcc0300e0e471efbf9619fb</sys_update_name>
+        <sys_update_name>sys_properties_5ffefba4db408300e0e471efbf9619f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-16 11:02:25</sys_updated_on>
-        <type>boolean</type>
-        <value>true</value>
+        <sys_updated_on>2017-07-16 10:56:53</sys_updated_on>
+        <type>string</type>
+        <value>email:work_email,title:title,phone:work_phone</value>
         <write_roles>x_3200_emgr.manager</write_roles>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=a5370e08dbcc0300e0e471efbf9619fb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ffefba4db408300e0e471efbf9619f8"/>
 </record_update>
