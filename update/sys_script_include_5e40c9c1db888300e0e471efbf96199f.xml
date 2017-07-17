@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_3200_emgr.EmployeeUtilsAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EmployeeUtilsAjax</name>
+        <script><![CDATA[var EmployeeUtilsAjax = Class.create();
+EmployeeUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	calculateDayDifference: function() {
+		var start_date = this.getParameter('sysparm_start_date');
+		var end_date = this.getParameter('sysparm_end_date');
+		var gdt1 = new GlideDateTime(end_date);
+		var gdt2 = new GlideDateTime(start_date);
+		var dur = GlideDateTime.subtract(gdt1, gdt2); //the difference between gdt1 and gdt2
+		var dur1= new GlideDuration();
+		dur1.setValue(dur.getValue());
+		return dur1.getDurationValue();
+	},
+	
+	type: 'EmployeeUtilsAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-17 09:28:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5e40c9c1db888300e0e471efbf96199f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>EmployeeUtilsAjax</sys_name>
+        <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
+        <sys_update_name>sys_script_include_5e40c9c1db888300e0e471efbf96199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-17 09:35:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

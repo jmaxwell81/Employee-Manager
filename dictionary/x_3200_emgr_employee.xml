@@ -3,6 +3,7 @@
     <element audit="true" label="Employees" max_length="40" name="x_3200_emgr_employee" text_index="true" type="collection">
         <element label="Additional Education" max_length="8000" name="additional_education" type="html"/>
         <element label="Address" max_length="40" name="address" type="multi_two_lines"/>
+        <element label="Annual Vacation Hours" max_length="40" name="annual_vacation_hours" type="integer"/>
         <element default="0" label="Bonus " max_length="20" name="bonus" type="currency"/>
         <element label="City" max_length="40" name="city" type="string"/>
         <element choice="1" label="Civil Status" mandatory="true" max_length="10" name="civil_status" type="string">
@@ -13,14 +14,16 @@
                 <element label="Widowed" sequence="3" value="WI"/>
             </choice>
         </element>
+        <element label="Contractual Hours a Day" max_length="40" name="contractual_hours_a_day" type="integer"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Days Employed" max_length="40" name="days_employed" read_only="true" type="integer"/>
         <element label="Degrees" max_length="8000" name="degrees" type="html"/>
         <element label="Desk Terminal" max_length="40" name="desk_terminal" type="string"/>
+        <element label="Direct Manager" max_length="32" name="direct_manager" reference="x_3200_emgr_employee" type="reference"/>
         <element label="Email" max_length="100" name="email" type="email"/>
         <element label="Emergency Contact" max_length="80" name="emergency_contact" type="string"/>
-        <element label="Emergency Contact Phone" max_length="25" name="emergency_contact_phone" type="phone_number_e164"/>
+        <element label="Emergency Contact Phone" max_length="40" name="emergency_contact_phone" type="string"/>
         <element choice="1" label="Emergency Contact Relationship" max_length="20" name="emergency_contact_relationship" type="string">
             <choice>
                 <element label="Significant Other" sequence="0" value="SO"/>
@@ -39,12 +42,13 @@
         <element label="Hire Date" max_length="40" name="hire_date" type="glide_date"/>
         <element label="Lastname" mandatory="true" max_length="80" name="lastname" type="string"/>
         <element label="Last Review Date" max_length="40" name="last_review_date" type="glide_date"/>
+        <element label="Line Manager" max_length="32" name="line_manager" reference="x_3200_emgr_employee" type="reference"/>
         <element calculation="if (current.firstname.nil() &amp;&amp; current.lastname.nil() &amp;&amp; !current.name.nil()) {&#13;&#10;&#9;var names = current.name.toString().split(&quot; &quot;);&#13;&#10;&#9;if (names.length &gt; 1) {&#13;&#10;&#9;&#9;current.firstname = names[0];&#13;&#10;&#9;&#9;names.shift();&#13;&#10;&#9;&#9;current.lastname = names.join(&quot; &quot;);&#13;&#10;&#9;} else&#13;&#10;&#9;current.lastname = names[0];&#13;&#10;}&#13;&#10;&#13;&#10;if(current.firstname.nil()) {&#13;&#10;&#9;current.lastname;&#13;&#10;} else {&#13;&#10;&#9;current.firstname + ' ' + current.lastname;&#13;&#10;}&#13;&#10;&#13;&#10;" display="true" label="Name" max_length="120" name="name" type="string" virtual="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Partner Date of Birth" max_length="40" name="partner_date_of_birth" type="glide_date"/>
         <element label="Partner Firstname" max_length="40" name="partner_firstname" type="string"/>
         <element label="Partner Lastname" max_length="40" name="partner_lastname" type="string"/>
-        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
         <element default="0" label="Salary" max_length="20" name="salary" type="currency"/>
         <element label="Social Security Number" max_length="40" name="social_security_number" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
@@ -58,11 +62,17 @@
         <element default="0" label="Total Stock Value" max_length="20" name="total_stock_value" type="currency"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <element label="Work Email" max_length="100" name="work_email" type="email"/>
-        <element label="Work Phone" max_length="40" name="work_phone" type="phone_number_e164"/>
+        <element label="Work Phone" max_length="40" name="work_phone" type="string"/>
         <element default="0" label="Yearly Comp" max_length="20" name="yearly_comp" type="currency"/>
         <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
         <index name="index">
+            <element name="line_manager"/>
+        </index>
+        <index name="index2">
             <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="direct_manager"/>
         </index>
     </element>
 </database>

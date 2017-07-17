@@ -3,12 +3,12 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_3200_emgr.SyncUserEmployee</api_name>
+        <api_name>x_3200_emgr.EmployeeUtils</api_name>
         <client_callable>false</client_callable>
         <description/>
-        <name>SyncUserEmployee</name>
-        <script><![CDATA[var SyncUserEmployee = Class.create();
-SyncUserEmployee.prototype = {
+        <name>EmployeeUtils</name>
+        <script><![CDATA[var EmployeeUtils = Class.create();
+EmployeeUtils.prototype = {
 	initialize: function() {
 	},
 	
@@ -27,21 +27,21 @@ SyncUserEmployee.prototype = {
 		}
 	},
 	
-	type: 'SyncUserEmployee'
+	type: 'EmployeeUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-07-16 10:15:26</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>237bb364db408300e0e471efbf9619a4</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>SyncUserEmployee</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>EmployeeUtils</sys_name>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
         <sys_update_name>sys_script_include_237bb364db408300e0e471efbf9619a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-16 10:59:39</sys_updated_on>
+        <sys_updated_on>2017-07-17 09:27:07</sys_updated_on>
     </sys_script_include>
 </record_update>
