@@ -8,7 +8,7 @@
         <element label="Leave Type" mandatory="true" max_length="40" name="leave_type" reference="x_3200_emgr_leave_type" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Remarks" max_length="8000" name="remarks" type="html"/>
-        <element label="Request Date" max_length="40" name="request_date" read_only="true" type="glide_date"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Request Date" max_length="40" name="request_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date" use_dynamic_default="true"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Total number of hours" max_length="40" name="total_number_of_hours" read_only="true" type="integer"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <messages/>
+        <name>Calculate Hrs (onLoad)</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	
+	g_form.setReadOnly('hours_of_leave_last_day',true);
+	
+	var ga = new GlideAjax('EmployeeUtilsAjax');
+	ga.addParam('sysparm_name','calculateHrsDifference');
+	ga.addParam('sysparm_start_date',g_form.getValue('start_date'));
+	ga.addParam('sysparm_end_date',g_form.getValue('end_date'));
+	ga.addParam('sysparm_hours_first_day',g_form.getValue('hours_of_leave_first_day'));
+	ga.addParam('sysparm_hours_last_day',g_form.getValue('hours_of_leave_last_day'));
+	ga.addParam('sysparm_employee',g_form.getValue('employee'));
+	ga.getXML(calculateDayDifferenceParse);
+	
+	function calculateDayDifferenceParse(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('total_number_of_hours',answer);
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-17 11:13:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a28594ddb888300e0e471efbf96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calculate Hrs (onLoad)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
+        <sys_update_name>sys_script_client_4a28594ddb888300e0e471efbf96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-17 11:18:19</sys_updated_on>
+        <table>x_3200_emgr_leave_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

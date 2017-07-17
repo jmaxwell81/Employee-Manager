@@ -5,10 +5,10 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>end_date</field>
+        <field>hours_of_leave_first_day</field>
         <global>true</global>
         <messages/>
-        <name>Check End Date &gt; Start Date</name>
+        <name>Calculate hrs</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
@@ -16,60 +16,39 @@
 	}
 	
 	//Type appropriate comment here, and begin script below
-	var end = g_form.getValue("end_date");
-	var start = g_form.getValue("start_date");
-	// skip if start or end is blank
-	if (start == "" || end == "") {
-		return;
-	}
-	
-	// get user's date time display format
-	var format = g_user_date_format;
-	var isEndBeforeStart = compareDates(start, format, end, format);
-	
-	// 1 (true) if start is greater than end
-	// 0 if end is greater than start of if they are the same
-	// -1 if either of the dates is in an invalid format
-	
-	if (isEndBeforeStart) {
-		g_form.setValue("end_date","");
-		alert("End date must be after start date");
-	} else {
+	if (newValue != oldValue) {
 		var ga = new GlideAjax('EmployeeUtilsAjax');
-		ga.addParam('sysparm_name','calculateDayDifference');
+		ga.addParam('sysparm_name','calculateHrsDifference');
 		ga.addParam('sysparm_start_date',g_form.getValue('start_date'));
 		ga.addParam('sysparm_end_date',g_form.getValue('end_date'));
+		ga.addParam('sysparm_hours_first_day',g_form.getValue('hours_of_leave_first_day'));
+		ga.addParam('sysparm_hours_last_day',g_form.getValue('hours_of_leave_last_day'));
+		ga.addParam('sysparm_employee',g_form.getValue('employee'));
 		ga.getXML(calculateDayDifferenceParse);
 		
 		function calculateDayDifferenceParse(response) {
 			var answer = response.responseXML.documentElement.getAttribute("answer");
-			if (answer >= 1) {
-				g_form.setReadOnly('hours_of_leave_last_day',false);
-				g_form.setMandatory('hours_of_leave_last_day',true);
-			} else {
-				g_form.setReadOnly('hours_of_leave_last_day',true);
-				g_form.setMandatory('hours_of_leave_last_day',false);
-			}
+			g_form.setValue('total_number_of_hours',answer);
 		}
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-07-17 08:12:36</sys_created_on>
+        <sys_created_on>2017-07-17 10:06:59</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>da8ee0c9db488300e0e471efbf961922</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Check End Date &gt; Start Date</sys_name>
+        <sys_id>0c198909db888300e0e471efbf961998</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Calculate hrs</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
-        <sys_update_name>sys_script_client_da8ee0c9db488300e0e471efbf961922</sys_update_name>
+        <sys_update_name>sys_script_client_0c198909db888300e0e471efbf961998</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-17 11:15:38</sys_updated_on>
+        <sys_updated_on>2017-07-17 11:15:45</sys_updated_on>
         <table>x_3200_emgr_leave_request</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
