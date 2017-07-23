@@ -13,20 +13,21 @@
         <script><![CDATA[function onLoad() {
 	//Type appropriate comment here, and begin script below
 	
-	g_form.setReadOnly('hours_of_leave_last_day',true);
-	
 	var ga = new GlideAjax('EmployeeUtilsAjax');
-	ga.addParam('sysparm_name','calculateHrsDifference');
+	ga.addParam('sysparm_name','calculateDayDifference');
 	ga.addParam('sysparm_start_date',g_form.getValue('start_date'));
 	ga.addParam('sysparm_end_date',g_form.getValue('end_date'));
-	ga.addParam('sysparm_hours_first_day',g_form.getValue('hours_of_leave_first_day'));
-	ga.addParam('sysparm_hours_last_day',g_form.getValue('hours_of_leave_last_day'));
-	ga.addParam('sysparm_employee',g_form.getValue('employee'));
 	ga.getXML(calculateDayDifferenceParse);
 	
 	function calculateDayDifferenceParse(response) {
 		var answer = response.responseXML.documentElement.getAttribute("answer");
-		g_form.setValue('total_number_of_hours',answer);
+		if (answer >= 1) {
+			g_form.setReadOnly('hours_of_leave_last_day',false);
+			g_form.setMandatory('hours_of_leave_last_day',true);
+		} else {
+			g_form.setReadOnly('hours_of_leave_last_day',true);
+			g_form.setMandatory('hours_of_leave_last_day',false);
+		}
 	}
 	
 }]]></script>
@@ -37,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4a28594ddb888300e0e471efbf96196d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Calculate Hrs (onLoad)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Manager" source="x_3200_emgr">450da9c3db333200e0e471efbf96198f</sys_package>
@@ -46,10 +47,10 @@
         <sys_scope display_value="Employee Manager">450da9c3db333200e0e471efbf96198f</sys_scope>
         <sys_update_name>sys_script_client_4a28594ddb888300e0e471efbf96196d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-17 11:18:19</sys_updated_on>
+        <sys_updated_on>2017-07-20 16:57:16</sys_updated_on>
         <table>x_3200_emgr_leave_request</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
